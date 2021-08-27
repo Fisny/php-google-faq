@@ -4,20 +4,65 @@
 
 .google-img{
     width: 100px;
+    padding-bottom: 5px;
+}
+
+.google-img:hover{
+    width: 120px;
+    transition: 0.5s;
 }
 
 .termini{
-    color: red;
+    color: gray;
     text-decoration: none;
     font-size: 30px;
     margin-left: 15px;
+}
+
+.termini:hover{
+    font-size: 40px;
+    transition: 0.5s;
 }
 
 .fa-bars{
     color: gray;
 }
 
+.fa-bars:hover{
+    font-size: 30px;
+    transition: 0.5s;
+}
+
 .fa-user{
     background-color: royalblue;
-    border-radius: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-user:hover{
+    transition: 0.5s;
+    font-size: 30px;
+    background-color: rgb(198, 65, 225);
+    padding: 12px;
+}
+
+.barra a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.barra a:hover{
+    color: rgb(77, 77, 255);
+    border-bottom: 3px solid rgb(77, 77, 255);
+    padding-bottom: 16px;
+    transition: 0.2s;
+
+}
+
+.barra a:first-child{
+    margin: 0;
 }
