@@ -1,0 +1,23 @@
+.container-fluid{
+    padding: 10px;
+}
+
+.google-img{
+    width: 100px;
+}
+
+.termini{
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.fa-bars{
+    color: gray;
+}
+
+.fa-user{
+    background-color: royalblue;
+    border-radius: 50px;
+}
